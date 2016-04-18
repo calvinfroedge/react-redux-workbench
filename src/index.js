@@ -1,0 +1,1 @@
+export BaseComponent from './component'
