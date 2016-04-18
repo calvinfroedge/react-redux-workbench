@@ -13,3 +13,19 @@ If you want to customize the project to point at your github / npm repo, just cu
 ```js
 PROJECT_NAME=foo-bar GITHUB_USERNAME=foo AUTHOR_NAME="Calvin Froedge" AUTHOR_EMAIL=calvinfroedge@gmail.com npm run customize
 ``` 
+
+# Important Commands
+
+## `npm test`
+
+Run tests (files in test folder named `TESTNAME.spec.js`) using mocha / expect.
+
+## `npm build`
+
+Builds for es, commonjs, umd. This is ignored in git, but will be included in npm package.
+
+## `npm run development`
+
+Starts the dev server. Go to `localhost:3000` to see your new component with live reload. You can pass `PORT` environment variable to customize this.
+
+Enjoy!
