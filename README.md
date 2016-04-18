@@ -28,4 +28,8 @@ Builds for es, commonjs, umd. This is ignored in git, but will be included in np
 
 Starts the dev server. Go to `localhost:3000` to see your new component with live reload. You can pass `PORT` environment variable to customize this.
 
-Enjoy!
+# When you're ready to publish...
+
+Make sure you clean up the files you don't need! Here's a quick command:
+
+`rm .gitconfig .webpack.config.js .package.json`
