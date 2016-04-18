@@ -1,7 +1,7 @@
 {
   "name": "react-workbench",
   "version": "0.0.1",
-  "description": "A collection of generic functions for writing redux reducers to operate on various data structures",
+  "description": "description-customize-me",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
