@@ -25,7 +25,7 @@ var config = {
 
 if(env === 'build'){
   config.output = {
-    library: 'ReactWorkbench',
+    library: 'ReactReduxWorkbench',
     libraryTarget: 'umd'
   }
 } else if(env === 'development'){

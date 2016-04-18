@@ -38,7 +38,7 @@ if(env === 'build'){
 
   config.output = {
     path: path.join(__dirname, '/dist/'),
-    filename: 'react-workbench.js',
+    filename: 'react-redux-workbench.js',
     publicPath: '/'
   };
 
