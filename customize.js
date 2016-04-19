@@ -7,7 +7,7 @@ if(!PROJECT_NAME || !PROJECT_DESCRIPTION || !GITHUB_USERNAME || !AUTHOR_NAME || 
   process.exit();
 }
 
-let oldName = 'react-workbench';
+let oldName = 'react-redux-workbench';
 let packageJSON = fs.readFileSync('./.package.json').toString();
 let gitConfig = fs.readFileSync('./.gitconfig').toString();
 let webpackConfig = fs.readFileSync('./.webpack.config.js').toString();
