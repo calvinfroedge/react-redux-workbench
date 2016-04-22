@@ -31,4 +31,5 @@ let packageJSONNEW = packageJSON.replaceAll(oldName, file).replaceAll('Calvin Fr
 let webpackConfigNEW = webpackConfig.replaceAll('ReactReduxWorkbench', projectName.replaceAll(' ', '')).replaceAll(oldName, file);
 fs.writeFileSync('./.git/config', gitConfigNew);
 fs.writeFileSync('./package.json', packageJSONNEW);
+fs.writeFileSync('./webpack.config.js', webpackConfigNEW);
 console.info('Wrote updates to package.json, .git/config, and wepback.config.js.\n');
