@@ -16,6 +16,12 @@ git init
 git add .
 ```
 
+...and
+
+```
+npm install
+```
+
 and run...
 
 ```js
